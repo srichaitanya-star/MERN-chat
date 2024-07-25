@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Work+Sans:wght@300&display=swap');
+
+.App {
+  text-align: center;
+  /* display: flex; */
+  background-image: url("./images/patrick-fore-0gkw_9fy0eQ-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(136, 136, 136, 0.281);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
